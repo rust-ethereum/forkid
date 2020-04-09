@@ -11,9 +11,9 @@ edition = "2018"
 
 [dependencies]
 crc = "1"
-ethereum-types = "0.8"
+ethereum-types = "0.9"
 maplit = "1"
-parity-util-mem = "0.5"
+parity-util-mem = { version = "0.6", default-features = false, features = ["ethereum-impls"] }
 rlp = "0.4"
 rlp-derive = "0.1"
 
