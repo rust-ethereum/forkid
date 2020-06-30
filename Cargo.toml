@@ -1,6 +1,6 @@
 [package]
 name = "ethereum-forkid"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
 repository = "https://github.com/vorot93/ethereum-forkid"
 documentation = "https://docs.rs/ethereum-forkid"
@@ -13,7 +13,7 @@ edition = "2018"
 crc = "1"
 ethereum-types = "0.9"
 maplit = "1"
-parity-util-mem = { version = "0.6", default-features = false, features = ["ethereum-impls"] }
+parity-util-mem = { version = "0.7", default-features = false, features = ["ethereum-impls"] }
 rlp = "0.4"
 rlp-derive = "0.1"
 
